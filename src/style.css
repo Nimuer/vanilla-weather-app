@@ -40,7 +40,12 @@ a {
   font-size: 12px;
   padding-top: 5px;
 }
-.svg-weather {
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.float-left {
   margin-right: 5px;
 }
 .temperature {
@@ -53,4 +58,7 @@ a {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+.active {
+  color: rgb(36, 36, 36);
 }
